@@ -1,0 +1,41 @@
+div {
+	margin: auto;
+	width: 1024px;
+}
+
+.menuitem {
+	padding: 10px;
+	width: 200px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	text-align: center;
+	top: 325px;
+}
+
+.group {
+	position: relative;
+	left: 200px;
+}
+
+main {
+	position: relative;
+	top: 200px;
+}
+
+.title {
+	position: relative;
+	font-size: 50px;
+	text-align: center;
+}
+
+ footer {
+ 	position: relative;
+ 	top: 400px
+ }
+
+ .socialmedias {
+ 	position: relative;
+ 	top: 300px;
+ 	text-align: center;
+ }
