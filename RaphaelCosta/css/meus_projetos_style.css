@@ -26,6 +26,7 @@ div {
 	position: relative;
 	left: 200px;
 	top: 50px;
+
 }
 .subcat {
 	font-size: 20px;
@@ -38,6 +39,14 @@ div {
 	border: 1px solid black;
 	height: 200px;
 }
+
+/*#programacao_box {
+	background-image: url(../img/programacao.jpg);
+}
+
+#eletronica_box {
+	background-image: url(../img/eletronica.jpg);
+}*/
 
 .prog_projects {
 	position: relative;
