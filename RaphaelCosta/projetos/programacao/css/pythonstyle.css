@@ -1,0 +1,27 @@
+div {
+	margin: auto;
+	width: 1024px;
+}
+
+.menuitem {
+	padding: 10px;
+	width: 200px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+
+footer {
+	position: relative;
+	top: 470px;
+}
+
+.projects {
+	position: relative;
+	top: 200px;
+}
+.back{
+	position: relative;
+	top: 250px;
+}
