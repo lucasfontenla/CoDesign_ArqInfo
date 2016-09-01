@@ -3,77 +3,98 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Meus Projetos</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/meus_projetos_style.css">
 </head>
 <body>
-	<div>
+	<div class="all">
+	<div class="verticalLine">
 		<div>
 			<header>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="sobre_mim.html">Sobre Mim</a></li>
-					<li><a href="contato.html">Contato</a></li>
+				<ul class="group">
+					<li class="menuitem"><a href="index.html">Home</a></li>
+					<li class="menuitem"><a href="sobre_mim.html">Sobre Mim</a></li>
+					<li class="menuitem"><a href="contato.html">Contato</a></li>
 				</ul>
 			</header>
 		</div>
 
 		<div>
-			<h1>Meus Projetos</h1>
+			<h1 class="title">Meus Projetos</h1>
 		</div>
 
-		<div>
-			<h2>Programação</h2>
-			<ul>
-				<li>Front-End</li>
+		<div class="box" id="programacao_box">
+			<h2 class="categories">Programação</h2>
+				<div class="description">
+					<ul>
+						<li class="subcat" id="sub_prog">Front-End</li>
+						<ul>
+							<div class="prog_projects">
+								<a href="projetos/programacao/JavaScript.html"><img src="img/javascript.png" alt="JavaScript" height="50" width="50"></a>
+								<p>JavaScript</p>
+							</div>
+							<div class="prog_projects">
+								<a href="projetos/programacao/JavaScript.html"><img src="img/htmlcss.jpg" alt="HTML/CSS" height="50" width="50"></a>
+								<p>HTML/CSS</p>
+							</div>
+						</ul>
+						<li class="subcat" id="sub_prog">Back-End</li>
+						<ul>
+							<li class="prog_projects"><a href="projetos/programacao/C++.html">C++ (Arduino)</a></li>
+							<li class="prog_projects"><a href="projetos/programacao/Python.html">Python</a></li>
+							<li class="prog_projects"><a href="projetos/programacao/Git.html">Git</a></li>
+						</ul>
+					</ul>
+				</div>
+		</div>
+
+		<div class="box" id="eletronica_box">
+			<h2 class="categories" id="eletronica">Eletrônica</h2>
+				<div class="description">
+					<ul>
+						<li class="subcat" id="sub_elet"><a href="projetos/eletronica/Digital.html">Digital</a></li>
+						<li class="subcat" id="sub_elet"><a href="projetos/eletronica/Analogica.html">Analógica</a></li>
+					</ul>
+				</div>
+		</div>
+
+		<div class="box" id="simulacoes_box"> 
+			<h2 class="categories" id="simulacoes">Simulações</h2>
+				<div class="descripton">
+					<ul>
+						<li class="subcat" id="sub_simu"><a href="projetos/simulacoes/dinamicas_populacionais.html">Dinâmica Populacional</a></li>
+						<li class="subcat" id="sub_simu"><a href="projetos/simulacoes/termodinamica.html">Termodinâmica</a></li>
+						<li class="subcat" id="sub_simu"><a href="projetos/simulacoes/sistemas_mecanicos.html">Sistemas Mecânicos</a></li>
+					</ul>
+				</div>
+		</div>
+
+		<div class="box" id="empreen_box">
+			<h2 class="categories" id="empreen">Empreendedorismo</h2>
+				<div class="description">
+					<ul>
+						<li class="subcat" id="sub_emp"><a href="projetos/empreendedorismo/Social.html">Social</a></li>
+						<li class="subcat" id="sub_emp"><a href="projetos/empreendedorismo/Tecnologico.html">Tecnológico</a></li>
+					</ul>
+				</div>
+		</div>
+
+		<div class="box" id="design_box">
+			<h2 class="categories" id="design">Design</h2>
+			<div class="description">
 				<ul>
-					<li><a href="projetos/programacao/JavaScript.html">JavaScript</a></li>
-					<li><a href="projetos/programacao/HTML-CSS.html">HTML/CSS</a></li>
+					<li class="subcat" id="sub_think"><a href="projetos/design/design_thinking.html">Design Thinking</a></li>
 				</ul>
-				<li>Back-End</li>
+			</div>
+		</div>
+
+		<div class="box" id="artigos_box">
+			<h2 class="categories" id="artigos">Artigos Científicos</h2>
+			<div class="description">
 				<ul>
-					<li><a href="projetos/programacao/C++.html">C++ (Arduino)</a></li>
-					<li><a href="projetos/programacao/Python.html">Python</a></li>
-					<li><a href="projetos/programacao/Git.html">Git</a></li>
+					<li class="subcat" id="sub_artig"><a href="projetos/artigos/artigos.html">Artigos</a></li>
 				</ul>
-			</ul>
-		</div>
-
-		<div>
-			<h2>Eletrônica</h2>
-			<ul>
-				<li><a href="projetos/eletronica/Digital.html">Digital</a></li>
-				<li><a href="projetos/eletronica/Analogica.html">Analógica</a></li>
-			</ul>
-		</div>
-
-		<div>
-			<h2>Simulações</h2>
-			<ul>
-				<li><a href="projetos/simulacoes/dinamicas_populacionais.html">Dinâmica Populacional</a></li>
-				<li><a href="projetos/simulacoes/termodinamica.html">Termodinâmica</a></li>
-				<li><a href="projetos/simulacoes/sistemas_mecanicos.html">Sistemas Mecânicos</a></li>
-			</ul>
-		</div>
-
-		<div>
-			<h2>Empreendedorismo</h2>
-			<ul>
-				<li><a href="projetos/empreendedorismo/Social.html">Social</a></li>
-				<li><a href="projetos/empreendedorismo/Tecnologico.html">Tecnológico</a></li>
-			</ul>
-		</div>
-
-		<div>
-			<h2>Design</h2>
-			<ul>
-				<li><a href="projetos/design/design_thinking.html">Design Thinking</a></li>
-			</ul>
-		</div>
-
-		<div>
-			<h2>Artigos Científicos</h2>
-			<ul>
-				<li><a href="projetos/artigos/artigos.html">Artigos</a></li>
-			</ul>
+			</div>
 		</div>
 
 		<div>

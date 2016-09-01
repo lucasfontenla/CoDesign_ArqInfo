@@ -24,8 +24,8 @@ div {
 .categories {
 	font-size: 25px;
 	position: relative;
-	left: 150px;
-	top: 50px;
+	left: 100px;
+	top: 175px;
 
 }
 .subcat {
@@ -57,4 +57,9 @@ div {
 
 footer {
 	padding: 30px;
+}
+
+#html_description {
+	position: relative;
+	right: 30px;
 }

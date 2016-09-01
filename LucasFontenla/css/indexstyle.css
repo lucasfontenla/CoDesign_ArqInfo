@@ -2,6 +2,9 @@ div {
 	margin: auto;
 	width: 1024px;
 }
+body {
+	background: linear-gradient(to bottom right, red, yellow);
+}
 
 .menuitem {
 	padding: 10px;
