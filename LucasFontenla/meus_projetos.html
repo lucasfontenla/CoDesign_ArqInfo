@@ -1,110 +1,141 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Meus Projetos</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/meus_projetos_style.css">
-</head>
-<body>
-	<div class="all">
-	<div class="verticalLine">
-		<div>
-			<header>
-				<ul class="group">
-					<li class="menuitem"><a href="index.html">Home</a></li>
-					<li class="menuitem"><a href="sobre_mim.html">Sobre Mim</a></li>
-					<li class="menuitem"><a href="contato.html">Contato</a></li>
-				</ul>
-			</header>
+	<head>
+		<title>Meus Projetos</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/meus_projetos.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand"><span class="menu" id="site">TECHNOLOGIST</span></a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li><a href="index.html"><span class="menu" id="home">HOME</span></a></li>
+		      <li><a href="sobre_mim.html"><span class="menu" id="sobre">SOBRE MIM</span></a></li>
+		      <li><a href="contato.html"><span class="menu" id="contatos">CONTATOS</span></a></li> 
+		    </ul>
+		  </div>
+		</nav>
+		<div class="container celula">
+		<div class="row">
+			<div class="col-sm-12 celula" id="title">PROJETOS</div>
 		</div>
-
-		<div>
-			<h1 class="title">Meus Projetos</h1>
-		</div>
-
-		<div class="box" id="programacao_box">
-			<h2 class="categories">Programação</h2>
-				<div class="description">
-					<ul>
-						<li class="subcat" id="sub_prog">Front-End</li>
-						<ul>
-							<li class="prog_projects"><a href="projetos/programacao/JavaScript.html"><img src="img/javascript.png" alt="JavaScript" height="50" width="50"></a><p class="java_description">JavaScript</p></li>
-							<li class="prog_projects"><a href="projetos/programacao/JavaScript.html"><img src="img/htmlcss.jpg" alt="HTML/CSS" height="50" width="50"></a><p>HTML/CSS</p></li>	
-
-						</ul>
-						<li class="subcat" id="sub_prog">Back-End</li>
-						<ul>
-							<li class="prog_projects"><a href="projetos/programacao/C++.html"><img src="img/arduino.png" alt="Arduino" height="50" width="50"></a><p>Arudino</p></li>
-							<li class="prog_projects"><a href="projetos/programacao/Python.html"><img src="img/python.png" alt="Python" height="50" width="50"></a><p>Python</p></a></li>
-						</ul>
-						<li class="subcat" id="sub_prog">Ferramentas</li>
-						<ul>
-							<li class="prog_projects"><a href="projetos/programacao/Git.html"><img src="img/github-icon.png" alt="GitHub" height="50" width="50"></a><p>GitHub</p></a></li>
-						</ul>
-					</ul>
-				</div>
-		</div>
-
-		<div class="box" id="eletronica_box">
-			<h2 class="categories" id="eletronica">Eletrônica</h2>
-				<div class="description">
-					<ul>
-						<li class="subcat" id="sub_elet"><a href="projetos/eletronica/Digital.html">Digitais</a></li>
-						<li class="subcat" id="sub_elet"><a href="projetos/eletronica/Analogica.html">Analógica</a></li>
-					</ul>
-				</div>
-		</div>
-
-		<div class="box" id="simulacoes_box"> 
-			<h2 class="categories" id="simulacoes">Simulações</h2>
-				<div class="descripton">
-					<ul>
-						<li class="subcat" id="sub_simu"><a href="projetos/simulacoes/dinamicas_populacionais.html">Dinâmica Populacional</a></li>
-						<li class="subcat" id="sub_simu"><a href="projetos/simulacoes/termodinamica.html">Termodinâmica</a></li>
-						<li class="subcat" id="sub_simu"><a href="projetos/simulacoes/sistemas_mecanicos.html">Sistemas Mecânicos</a></li>
-					</ul>
-				</div>
-		</div>
-
-		<div class="box" id="empreen_box">
-			<h2 class="categories" id="empreen">Empreendedorismo</h2>
-				<div class="description">
-					<ul>
-						<li class="subcat" id="sub_emp"><a href="projetos/empreendedorismo/Social.html">Social</a></li>
-						<li class="subcat" id="sub_emp"><a href="projetos/empreendedorismo/Tecnologico.html">Tecnológico</a></li>
-					</ul>
-				</div>
-		</div>
-
-		<div class="box" id="design_box">
-			<h2 class="categories" id="design">Design</h2>
-			<div class="description">
-				<ul>
-					<li class="subcat" id="sub_think"><a href="projetos/design/design_thinking.html">Design Thinking</a></li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="box" id="artigos_box">
-			<h2 class="categories" id="artigos">Artigos Científicos</h2>
-			<div class="description">
-				<ul>
-					<li class="subcat" id="sub_artig"><a href="projetos/artigos/artigos.html">Artigos</a></li>
-				</ul>
-			</div>
-		</div>
-		<div>
-			<footer>
-				<ul>
-					<li>&copy; 2016 Lucas Fontenla</li>
-					<li><a href="https://github.com/lucasfontenla" target="_blank"><img src="img/github-icon.png" width="30" height="30" alt="github icon"></a></li>
-					<li><a href="https://fb.com/lucasfontenla" target="_blank"><img src="img/facebook-icon.png" width="30" height="30" alt="facebook icon"></a></li>
-					<li><a href="https://linkedin.com" target="_blank"><img src="img/linkedin-icon.png" width="30" height="30" alt="linkedin icon"></a></li>
-				</ul>
-			</footer>
-		</div>	
-	</div>
-	</div>
-</body>
+	<table class="table table-bordered">
+		<tbody>
+			<!--Box Programação-->
+			<tr class="box">
+				<td class="col-md-2" id="categoria">PROGRAMAÇÃO<br><span class="category_description">Nesta categoria, você encontra os projetos que foram desnvolvidos com o auxílio de algum tipo de linguagem de programação.</span></td>
+				<td class="description">
+				    <div class="size_box">
+				    	<ul>
+				    		<li><h3>Front-End</h3></li>
+				    			<ul class="projetos">
+				    				<li class="prog_projects"><a href="projetos/programacao/JavaScript.html"><img src="img/javascript.png" alt="JavaScript" height="50" width="50"><p class="java_description">JavaScript</p></a></li>
+				    				<li class="prog_projects"><a href="projetos/programacao/JavaScript.html"><img src="img/htmlcss.png" alt="HTML/CSS" height="50" width="50"><p>HTML/CSS</p></a></li>
+				    			</ul>
+				    		<li><h3>Back-End</h3></li>
+				    			<ul class="projetos">
+				    				<li class="prog_projects"><a href="projetos/programacao/C++.html"><img src="img/arduino.png" alt="Arduino" height="50" width="50"><p>C++(Arduino)</p></a></li>
+				    				<li class="prog_projects"><a href="projetos/programacao/Python.html"><img src="img/python.png" alt="Python" height="50" width="50"><p>Python</p></a></li>
+				    			</ul>
+				    		<li><h3>Ferramentas</h3></li>
+				    			<ul class="projetos">
+				    				<li class="prog_projects"><a href="projetos/programacao/Git.html"><img src="img/github-icon.png" alt="GitHub" height="50" width="50"><p>GitHub</p></a></li>
+				    			</ul>
+				    	</ul>
+				    </div>
+				</td>
+			</tr>
+			<!--Box Eletrônica-->
+			<tr class="box">
+				<td class="col-md-2" id="categoria2">ELETRÔNICA<br><span class="category_description">Nesta categoria, você encontra os projetos que foram desnvolvidos por meio de circuitos eletrônicos.</span></td>
+				<td class="description">
+				    <div class="size_box">
+				    	<ul>
+				    		<li><h3>Digital</h3></li>
+				    			<ul class="projetos">
+				    				<li class="prog_projects" id="sub_elet"><a href="projetos/eletronica/Digital.html">Digitais</a></li>
+				    			</ul>
+				    		<li><h3>Analógico</h3></li>
+				    			<ul class="projetos">
+				    				<li class="prog_projects" id="sub_elet"><a href="projetos/eletronica/Analogica.html">Analógico</a></li>
+				    			</ul>
+				    	</ul>
+				    </div>
+				</td>
+			</tr>
+			<!--Box Simulações-->
+			<tr class="box">
+				<td class="col-md-2" id="categoria">SIMULAÇÕES<br><span class="category_description">Nesta categoria, você encontra os projetos que foram desnvolvidos por meio de simulações.</span></td>
+				<td class="description">
+				    <div class="size_box">
+				    	<ul>
+				    		<li><h3>Dinâmica Populacional</h3></li>
+				    			<ul class="projetos">
+				    				<li class="subcat" id="sub_simu"><a href="projetos/simulacoes/dinamicas_populacionais.html">Dinâmica Populacional</a></li>
+				    			</ul>
+				    		<li><h3>Termodinâmica</h3></li>
+				    			<ul class="projetos">
+				    				<li class="subcat" id="sub_simu"><a href="projetos/simulacoes/termodinamica.html">Termodinâmica</a></li>
+				    			</ul>
+			    			<li><h3>Sistemas Mecânicos</h3></li>
+			    			<ul class="projetos">
+			    				<li class="subcat" id="sub_simu"><a href="projetos/simulacoes/sistemas_mecanicos.html">Sistemas Mecânicos</a></li>
+			    			</ul>
+				    	</ul>
+				    </div>
+				</td>
+			</tr>
+			<!--Box Empreendedorismo-->
+			<tr class="box">
+				<td class="col-md-2" id="categoria2">EMPREENDEDORISMO<br><span class="category_description">Nesta categoria, você encontra os projetos que foram desnvolvidos com fins de empreender.</span></td>
+				<td class="description">
+				    <div class="size_box">
+				    	<ul>
+				    		<li><h3>Empreendedorismo Social</h3></li>
+				    			<ul class="projetos">
+				    				<li class="subcat" id="sub_emp"><a href="projetos/empreendedorismo/Social.html">Sociais</a></li>
+				    			</ul>
+				    		<li><h3>Empreendedorismo Tecnológico</h3></li>
+				    			<ul class="projetos">
+				    				<li class="subcat" id="sub_emp"><a href="projetos/empreendedorismo/Tecnologico.html">Tecnológicos</a></li>
+				    			</ul>
+				    	</ul>
+				    </div>
+				</td>
+				<!--Box Design-->
+				<tr class="box">
+				<td class="col-md-2" id="categoria">DESIGN<br><span class="category_description">Nesta categoria, você encontra os projetos que foram desnvolvidos a partir do design voltado para usuários.</span></td>
+				<td class="description">
+				    <div class="size_box">
+				    	<ul>
+				    		<li><h3>Design Thinking</h3></li>
+				    			<ul class="projetos">
+				    				<li class="subcat" id="sub_think"><a href="projetos/design/design_thinking.html">Design Thinking</a></li>
+				    			</ul>
+				    	</ul>
+				    </div>
+				</td>
+				<!--Box Artigos-->
+				<tr class="box">
+				<td class="col-md-2" id="categoria2">ARTIGOS CIENTÍFICOS<br><span class="category_description">Nesta categoria, você encontra os artigos científicos desnvolvidos.</span></td>
+				<td class="description">
+				    <div class="size_box">
+				    	<ul>
+				    		<li><h3>Artigos</h3></li>
+				    			<ul class="projetos">
+				    				<li class="subcat" id="sub_artig"><a href="projetos/artigos/artigos.html">Artigos</a></li>
+				    			</ul>
+				    	</ul>
+				    </div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	</body>
 </html>
