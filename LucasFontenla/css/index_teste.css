@@ -2,11 +2,16 @@
    Cinza: #2B2B2B;
    Vermelho: #FF1212;
 */
+html, body {
+
+	height: auto;
+	width: auto;
+	background-image: url(../img/background.jpg);
+	background-repeat: repeat;
+}
 
 .container {
-	background-image: url(../img/background.jpg);
 	width: auto;
-	height: 620px;
 	padding-top: 60px;
 }
 
@@ -26,10 +31,26 @@
 	font-family: 'PT Sans', sans-serif;
 }
 
-.col-sm-1 {
-	padding-top: 3px;
+
+.col-sm-1  {
+	padding-right: 0px;
+	padding-bottom: 15px;
+}
+ .btn-group button {
+ 	background-color: red;
+ 	padding: 10px;
+ }
+ .btn-group a button {
+ 	font-size: 20px;
+ 	color: white;	
+ }
+
+.btn-group button:hover{
+	background-color: #2B2B2B;
 }
 
-nav {
-	padding-top: 180px;
-}
+ .btn-group a button:hover {
+ 	font-size: 20px;
+ 	color: white;	
+ }
+
