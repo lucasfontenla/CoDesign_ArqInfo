@@ -33,6 +33,7 @@ nav ul li {
 
 #title {
 	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
 }
 
 
@@ -47,9 +48,9 @@ nav ul li {
 	font-size: 40px;
 	font-family: 'Oswald', sans-serif;
 	padding-top: 100px;
-	padding-right: 150px;
+	padding-right: 130px;
 	padding-bottom: 100px;	
-	padding-left: 150px;
+	padding-left: 130px;
 }
 
 #categoria2{
@@ -58,20 +59,23 @@ nav ul li {
 	font-size: 40px;
 	font-family: 'Oswald', sans-serif;
 	padding-top: 100px;
-	padding-right: 150px;
+	padding-right: 130px;
 	padding-bottom: 100px;	
-	padding-left: 150px;
+	padding-left: 130px;
 }
 
 .description {
 	color: black;
+	font-family: 'Oswald', sans-serif;
 }
 
 .category_description {
 	font-size: 15px;
+	font-family: 'Oswald', sans-serif;
 }
 .sub_tile {
 	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
 }
 
 .projetos {
@@ -79,10 +83,17 @@ nav ul li {
 }
 
 .prog_projects {
-	display: inline-block;
-	padding-left: 50px; 
+	padding-left: 50px;
+	padding-bottom: 3px;
+	padding-top: 3px; 
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
 }
 
-table tr {
-	min-height: 40px;
+.subcat {
+	padding-left: 10px;
+}
+
+.icon {
+	display: inline-block;
 }

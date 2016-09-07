@@ -36,23 +36,19 @@ html, body {
 	padding-right: 0px;
 	padding-bottom: 15px;
 }
- .btn-group button {
- 	background-color: red;
- 	padding: 10px;
- }
- .btn-group a button {
+
+ .btn {
+ 	background-color: #FF1212;
  	font-size: 20px;
- 	color: white;	
+ 	font-family: 'Oswald', sans-serif;
+ 	color: white;
  }
 
-.btn-group button:hover{
+.btn:hover{
 	background-color: #2B2B2B;
-}
-
- .btn-group a button:hover {
- 	font-size: 20px;
+	font-size: 20px;
  	color: white;	
- }
+}
 
 .by {
 	font-size: 30px;
