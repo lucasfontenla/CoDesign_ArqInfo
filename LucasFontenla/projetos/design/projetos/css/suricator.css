@@ -37,3 +37,21 @@ nav ul li {
 	margin: 5%;
 }
 
+.imagem {
+	position: relative;
+	float: left;
+	padding-right: 10px;
+}
+
+.description {
+	position: relative;
+	float: right;
+}
+
+.subtitle {
+	font-size: 25px;
+}
+
+.answer {
+	padding-left: 10px;
+}
