@@ -1,10 +1,9 @@
 html, body {
 	height: auto;
 	width: auto;
-	background-image: url(../../../img/background.png);
+	background-image: url(../../../../img/background.png);
 	background-repeat: repeat;
 }
-
 
 
 nav div {
@@ -35,6 +34,7 @@ nav ul li {
 
 .main {
 	margin: 5%;
+	font-family: 'Oswald', sans-serif;
 }
 
 .imagem {
