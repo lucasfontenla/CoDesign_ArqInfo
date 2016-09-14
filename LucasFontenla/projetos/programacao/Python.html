@@ -2,50 +2,62 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Python</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/python.css">
+	<title>JavaScript</title>
 </head>
 <body>
-	<div>
-		<div>
-			<header>
-				<ul>
-					<li><a href="../../index.html">Home</a></li>
-					<li><a href="../../meus_projetos.html">Projetos</a></li>
-					<li><a href="../../contato.html">Contato</a></li>
-				</ul>
-			</header>
+	<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand"><span class="menu" id="site">TECHNOLOGIST</span></a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li><a href="../../index.html"><span class="menu" id="home">HOME</span></a></li>
+		      <li><a href="../../meus_projetos.html"><span class="menu" id="sobre">PROJETOS</span></a></li>
+		      <li><a href="../../sobre_mim.html"><span class="menu" id="sobre">SOBRE MIM</span></a></li>
+		      <li><a href="../../contato.html"><span class="menu" id="contatos">CONTATOS</span></a></li> 
+		    </ul>
 		</div>
-		<div>
-			<h1>Python</h1>
+	</nav>
+	<div class="main">
+		<div class="media">
+			<div class="media-left">
+				<a href="#">
+					<img class="media-object" src="img/python.png" alt="..." height="60" width="60">
+				</a>
+			</div>
+		<div class="media-body">
+		<h2 class="media-heading">Python</h2>
+		<span class="description">Python é uma linguagem de programação interpretada.</span>
 		</div>
-		<div>
-			<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
 		</div>
-		<div>
-			<h2>Projetos</h2>
-			<ul>
-				<li><a href="projetos/cabo_guerra.html">Cabo de Guerra</a></li>
-			</ul>
+		<div class="projects">
+		<div class="row">
+			<div class="col-sm-4 celula" id="first">
+				<a href="projetos/cabo_guerra.html"><img src="img" width="300" height="300"></a>
+				<a href="projetos/cabo_guerra.html"><p>Tug War - Design de Software</p></a>
+			</div>
+			<div class="col-sm-4 celula" id="first">
+				<img src="img" width="300" height="300">
+				<p>Nome do Projeto</p>
+			</div>
+			<div class="col-sm-4 celula" id="first">
+				<img src="img" width="300" height="300">
+				<p>Nome do Projeto</p>
+			</div>
+		</div>
 		</div>
 		<div>
 			<footer>
-				<ul>
-					<li>&copy; 2016 Lucas Fontenla</li>
-					<li><a href="../../contato.html">Contato</a></li>
-					<li><a href="https://github.com/lucasfontenla" target="_blank">GitHub</a></li>
-					<li><a href="https://fb.com/lucasfontenla" target="_blank">Facebook</a></li>
-					<li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-				</ul>
+				<div class="copyright">
+					<span></span>&copy; 2016 Lucas Fontenla</span>
+					<a href="https://github.com/lucasfontenla" target="_blank" class="icon"><img src="img/github-icon.png" width=40" height=40" alt="github icon"></a>
+					<a href="https://fb.com/lucasfontenla" target="_blank" class="icon"><img src="img/facebook-icon.png" width=40" height=40" alt="facebook icon"></a>
+					<a href="https://linkedin.com" target="_blank" class="icon"><img src="img/linkedin-icon.png" width="40" height="40" alt="linkedin icon"></a>
+				</div>
 			</footer>
-		</div>	
-	</div>
-	</div>
+		</div>
 </body>
 </html>
