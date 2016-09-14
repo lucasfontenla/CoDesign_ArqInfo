@@ -48,3 +48,18 @@ nav ul li {
 	width: 75%;
 }
 
+.btn {
+	margin: 10px;
+	float: left;
+}
+
+.icon {
+	right: 0;
+	
+}
+
+.copyright {
+	position: absolute;
+	bottom: 0;
+	margin: 10px;
+}
