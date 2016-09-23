@@ -89,7 +89,7 @@ nav ul li {
 
 .projetos_programacao {
 	padding-left: 30%;
-	padding-top: 10%;
+	padding-top: 15%;
 }
 
 .projetos_eletronica {
@@ -103,17 +103,17 @@ nav ul li {
 }
 
 .prog_projects_programacao { 
-	font-size: 30px;
+	font-size: 24px;
 	font-family: 'Oswald', sans-serif;
 }
 
 .prog_projects_eletronica {
-	font-size: 40px;
+	font-size: 24px;
 	font-family: 'Oswald', sans-serif;
 }
 
 .prog_projects_empreen {
-	font-size: 40px;
+	font-size: 24px;
 	font-family: 'Oswald', sans-serif;
 }
 
