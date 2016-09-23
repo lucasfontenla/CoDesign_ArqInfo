@@ -39,8 +39,8 @@ nav ul li {
 	margin-right:3%;
 	margin-top:1%;
 	float:left; 
-	height:150px;
-	width:150px;	
+	height:400px;
+	width:400px;	
 } 
 
 .corpo {
@@ -52,4 +52,15 @@ nav ul li {
 
 #subcorpo {
 	padding-top: 10px;
+}
+
+.icon {
+	right: 0;
+	
+}
+
+.copyright {
+	position: absolute;
+	bottom: 0;
+	margin: 10px;
 }

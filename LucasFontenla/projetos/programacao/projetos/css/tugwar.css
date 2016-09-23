@@ -43,6 +43,10 @@ nav ul li {
 	padding-right: 10px;
 }
 
+.media-body {
+	padding-left: 2%;
+}
+
 .description {
 	position: relative;
 	float: right;
@@ -50,8 +54,9 @@ nav ul li {
 
 .subtitle {
 	font-size: 25px;
+	padding-top: 3%;
 }
 
 .answer {
-	padding-left: 10px;
+	padding-left: 5%;
 }

@@ -56,3 +56,11 @@ nav ul li {
 	bottom: 0;
 	margin: 10px;
 }
+.block {
+	margin-left: 10%;
+}
+
+.row {
+	margin-left: 20%;
+	margin-top: 1%;
+}
